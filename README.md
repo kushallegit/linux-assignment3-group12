@@ -17,7 +17,7 @@ https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet
 ## 📘 Overview
 **Linux Command Helper Application** is a simple educational **C# console application** designed to demonstrate core **Object-Oriented Programming (OOP)** concepts and **JSON data integration**.
 
-The project defines a blueprint class called **`LinuxCommand`** which represents each Linux command, including its name, description, category, and example usage.
+The project defines a blueprint class called **`LinuxCommands`** which represents each Linux command, including its name, description, category, and example usage.
 
 A JSON file named **`linux-commands.json`** stores multiple command entries. The application loads the JSON file, converts it into object instances, and displays the data dynamically using C# code.
 
@@ -73,7 +73,7 @@ You can verify the installed versions:
 Handles the program logic:
 
 - Reads JSON file  
-- Deserializes JSON data into a `List<LinuxCommand>`  
+- Deserializes JSON data into a `List<LinuxCommands>`  
 - Uses `foreach` to display command info  
 - Implements exception handling  
 
@@ -99,14 +99,14 @@ Your full project will include all commands contained in the JSON file.
 - Install **Microsoft C# Extension** in VS Code  
 - (Optional) Verify .NET installation:  
 
-dotnet --version
+**dotnet --version**
 
 
 ---
 
 ### Step 02 — Create New Console App
 
-CTRL + SHIFT + P
+**CTRL + SHIFT + P**
 
 
 Select:
@@ -128,7 +128,7 @@ Inside the VS Code Explorer:
 
 - Right-click project  
 - New File → Choose **Class**  
-- Name it: `LinuxCommand.cs`
+- Name it: `LinuxCommands.cs`
 
 ---
 
