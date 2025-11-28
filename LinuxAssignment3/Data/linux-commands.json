@@ -1,0 +1,67 @@
+[
+  {
+    "Name": "ls",
+    "Description": "Lists files and directories in the current location.",
+    "Category": "File Management",
+    "Example": "ls -la",
+    "Difficulty": "Easy",
+    "Notes": "Commonly used to inspect directory contents."
+  },
+  {
+    "Name": "cd",
+    "Description": "Changes the current working directory to another directory.",
+    "Category": "Navigation",
+    "Example": "cd /usr/local",
+    "Difficulty": "Easy",
+    "Notes": "Use 'cd ..' to move to the parent directory."
+  },
+  {
+    "Name": "pwd",
+    "Description": "Shows the absolute path of the current directory.",
+    "Category": "Navigation",
+    "Example": "pwd",
+    "Difficulty": "Easy",
+    "Notes": "Useful when navigating deep directory structures."
+  },
+  {
+    "Name": "mkdir",
+    "Description": "Creates a new directory in the file system.",
+    "Category": "File Management",
+    "Example": "mkdir my_folder",
+    "Difficulty": "Easy",
+    "Notes": "Use 'mkdir -p' to create nested directories."
+  },
+  {
+    "Name": "rm",
+    "Description": "Removes files or directories from the system.",
+    "Category": "File Management",
+    "Example": "rm file.txt",
+    "Difficulty": "Medium",
+    "Notes": "Be careful — deleted files cannot be recovered."
+  },
+  {
+    "Name": "cp",
+    "Description": "Copies files or directories to a new location.",
+    "Category": "File Management",
+    "Example": "cp file.txt backup/",
+    "Difficulty": "Medium",
+    "Notes": "Use 'cp -r' for copying folders."
+  },
+  {
+    "Name": "mv",
+    "Description": "Moves or renames files and directories.",
+    "Category": "File Management",
+    "Example": "mv oldname.txt newname.txt",
+    "Difficulty": "Medium",
+    "Notes": "Also used for renaming files."
+  },
+  {
+    "Name": "cat",
+    "Description": "Displays the content of a file on the terminal.",
+    "Category": "File Reading",
+    "Example": "cat document.txt",
+    "Difficulty": "Easy",
+    "Notes": "Often used to quickly read small files."
+  }
+ 
+]
