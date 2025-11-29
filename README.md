@@ -1,6 +1,11 @@
 # linux-assignment3-group12
 
 # Linux Command Helper Application
+**Group Number:** 7  
+**Group Members:**  
+- Kushal Gurung
+- Saugat Rana
+- Sabin Adhikari
 
 ## Linux Command Application
 **Simple .NET Console Application With C# and JSON file:**  
