@@ -80,13 +80,13 @@ Handles the program logic:
 ---
 
 ## 💻 Example Output
-ls: Lists files and directories.
-cd: Changes the current directory.
-pwd: Shows the full path of the current directory.
-mkdir: Creates a new directory.
-rmdir: Removes an empty directory.
-touch: Creates a new empty file.
-cat: Displays the contents of a file.
+- ls: Lists files and directories.
+- cd: Changes the current directory.
+- pwd: Shows the full path of the current directory.
+- mkdir: Creates a new directory.
+- rm: Removes files or directories from the system.
+- mv: Moves or renames files and directories.
+- cat: Displays the contents of a file.
 
 
 Your full project will include all commands contained in the JSON file.
